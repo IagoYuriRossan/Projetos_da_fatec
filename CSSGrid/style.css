@@ -1,0 +1,41 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Define três colunas de largura igual */
+    grid-gap: 40px; /* Espaçamento entre as células */
+}
+
+.item {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos adicionais para o botão */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 570px) and (max-width: 998px){
+    body{
+        background-color: red;
+    }
+    .grid-container {
+        display: end;
+        grid-template-columns: 1fr 1fr; /* Define três colunas de largura igual */
+        grid-gap: 10px; /* Espaçamento entre as células */
+    }
+}
+
+@media screen and (max-width: 350px){
+    body{
+        background-color: blue;
+    }
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        grid-template-rows: 1fr 1fr; /* Define três colunas de largura igual */
+        grid-gap: 10px; /* Espaçamento entre as células */
+    }
+}
