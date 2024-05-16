@@ -1,0 +1,16 @@
+header{
+    border: 5px purple; 
+    background-color: cyan;
+    height: 100px;
+}
+
+footer{
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #021859;
+    font-family: Roboto;
+}
+
+.texto_rodape{
+    background-color: #30A8F2;
+}

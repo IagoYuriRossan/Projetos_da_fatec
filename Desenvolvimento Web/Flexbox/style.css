@@ -1,0 +1,12 @@
+.box{
+    border-radius: 5px;
+    border: 1px solid purple;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+article{
+    display: ;
+}

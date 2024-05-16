@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+header {
+    color: #FF8400;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    font-family: 'Roboto';
+    color: #000000;
+}
+
+#tabela {
+    display: flex;
+    column-gap: 1rem;
+}
+
+#massa {
+    color: black;
+}
+
+#ing {
+    color: black;
+}
+
+#relogio {
+    height: 30px;
+}
+
+
+#bandeija {
+    height: 30px;
+}
+
+#hearth {
+    height: 30px;
+}
+
+#balão {
+    height: 30px}
+
+h2 {
+    color: #FF8400;
+}
+
+#tabela {
+    background-color: #e6e6e6;
+    
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 1px solid black;
+    padding: 15px;
+    color: #FF8400;
+}
+
+.texto {
+    color: #000000;
+}
+
+.grey {
+    background-color: #e6e6e6;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin-bottom: 15px;
+    margin-top: 15px;    
+}
+
+#centraliza {
+    display: grid;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.list {
+    margin: 25px;
+}
+
+li {
+    padding: 10px;
+}
+
+#comprar {
+    background-color: #FF8400;
+    color: #FFFF;
+    border-radius: 1rem;
+    height: 50px;
+    width: 200px;
+    box-shadow: inset;
+    border: #FF8400;
+}
