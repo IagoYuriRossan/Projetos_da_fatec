@@ -5,12 +5,44 @@ header{
 }
 
 footer{
+    height: auto;
+    display: flex;
     color: #FFFFFF;
-    padding: 10px;
+    padding: 5px;
     background-color: #021859;
     font-family: Roboto;
+    justify-content: space-between;
+    align-items: flex-end
 }
 
 .texto_rodape{
-    background-color: #30A8F2;
+    background-color:#30A8F2;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity :0.7;
+
+}
+
+#icones_redes_sociais{
+    color: #FFFFFF;
+    display:flex;
+    margin: 3px;
+    
+}
+
+a:visited {
+    color: white;
+}
+
+img{
+    height: 20px;
+    width: 20px;
+}
+
+#rodape{
+    display: flex;
+}
+
+#footer{
+    display:flex;
 }
