@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Pacotes de Agencias</title>
+
+</head>
+
+<body>
+
+    <div class="alert alert-primary">
+        <h1>Escolha seu Pacote de Viagem</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <label class="form-label" for="pacotes">Pacote de Viagem:</label>
+            <select class="form-select" id="Pacotes" name="pacotes">
+                <option value="5000">Pacote 1: Caribe - R$5000</option>
+                <option value="7000">Pacote 2: Europa - R$7000</option>
+                <option value="6000">Pacote 3: Ásia - R$6000</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-6">
+            <label class="form-label" for="extras">Adicionais:</label><br>
+            <input class="form-check-input" type="checkbox" id="translado" name="adicionais" value="200">
+            <label class="form-label" for="translado">Translado (R$200)</label><br>
+            <input class="form-check-input" type="checkbox" id="passeios" name="adicionais" value="300">
+            <label class="form-label" for="passeios">Passeios (R$300)</label><br>
+            <input class="form-check-input" type="checkbox" id="visitas" name="adicionais" value="150">
+            <label class="form-label" for="visitas">Visitas Adicionais (R$150)</label>
+        </div>
+
+        <div class="col-6">
+            <label class="form-label" for="courtesy">Cortesia:</label><br>
+            <input class="form-check-input" type="radio" id="jantar" name="cortesia" value="Jantar Especial">
+            <label class="form-label" for="jantar">Jantar Especial</label><br>
+            <input class="form-check-input" type="radio" id="almoco" name="cortesia" value="Almoço Especial">
+            <label class="form-label" for="almoco">Almoço Especial</label>
+        </div>
+    </div>
+    <br>
+    <button class="btn btn-primary" type="button" onclick="calcularTotal()">Calcular Total</button>
+
+    <br>
+    <div id="result">
+        <h2>Resumo da Viagem</h2>
+        <textarea class="form-control" type="text" name="resumo" id="resumo_da_viagem" readonly disabled></textarea>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
